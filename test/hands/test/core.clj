@@ -16,4 +16,3 @@
 
 (deftest card-not-in-col
   (is (not (card-in? [(make-card 2 :clubs), (make-card 5 :clubs)] (make-card 2 :diamonds)))))
-
